@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.calculatorContainer {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.outputContainer {
+  background-color: #ddd;
+  color: black;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.keypadContainer button {
+  width: 25%;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
